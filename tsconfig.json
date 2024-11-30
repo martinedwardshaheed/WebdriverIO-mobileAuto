@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "types": ["@wdio/types"], // Add this line
+    "outDir": "./dist",
+    "baseUrl": "./"
+  },
+  "include": ["./**/*.ts"], // Include your TypeScript files
+  "exclude": ["node_modules"]
+}
